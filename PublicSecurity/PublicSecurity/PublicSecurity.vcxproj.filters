@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ImageProcessing">
+      <UniqueIdentifier>{800933c7-929c-4772-89de-c25de8ef8a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VideoProcessing">
+      <UniqueIdentifier>{509e5434-d68f-453f-b235-a369588b85f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FaceDetection">
+      <UniqueIdentifier>{b9068b7a-fce1-41fe-b87d-7a723734aa08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlateRecognition">
+      <UniqueIdentifier>{92de2586-bab3-4c18-b8d8-b8b6a4adf964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BehaviorAnalysis">
+      <UniqueIdentifier>{5daf9945-9d0b-493e-95f7-83e4bc7df403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{3cb674b8-9420-458a-8320-05c11c5873b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Coordinate">
+      <UniqueIdentifier>{8c16e75b-4bae-49f3-9a37-2efcc1abcfde}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageProcessing.cpp">
+      <Filter>ImageProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoProcessing.cpp">
+      <Filter>VideoProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="LPR.cpp">
+      <Filter>PlateRecognition</Filter>
+    </ClCompile>
+    <ClCompile Include="Coordinates.cpp">
+      <Filter>Util\Coordinate</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VideoProcessing.h">
+      <Filter>VideoProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageProcessing.h">
+      <Filter>ImageProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="LPR.h">
+      <Filter>PlateRecognition</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Coordinates.h">
+      <Filter>Util\Coordinate</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
